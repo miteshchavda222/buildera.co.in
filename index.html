@@ -29,6 +29,44 @@
 
 <body>
 
+  <!-- Start of NavBar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+      <!-- Start of NavBar Icon -->
+      <a class="navbar-brand" href="#">
+        <img src="images/BUILDERA_cropped_logo_with_name.png" alt="Logo" width="100%" height="70px" />
+      </a>
+      <!-- End of NavBar Icon -->
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Start of NavBar Links -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#aboutUsSection">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ourWorkSection">Our Work</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contactUsSection">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+      <!-- End of NavBar Links -->
+
+    </div>
+  </nav>
+  <!-- End of NavBar -->
+
   <!-- Start of Main Container -->
   <div class="container-fluid text-center main-container">
 
@@ -39,18 +77,18 @@
       <div class="row align-items-center hero-row">
 
         <!-- Start of Hero Left section -->
-        <div class="col-lg-4 col-12">
+        <!-- <div class="col-lg-4 col-12"> -->
 
-          <!-- Hero Logo -->
-          <img src="images/logo.webp" alt="Build Era Logo" class="hero-body-logo" />
+        <!-- Hero Logo -->
+        <!-- <img src="images/logo.webp" alt="Build Era Logo" class="hero-body-logo" /> -->
 
-          <!-- Hero Title -->
-          <h1 class="hero-body-title">Building Your Vision</h1>
-        </div>
+        <!-- Hero Title -->
+        <!-- <h1 class="hero-body-title">Building Your Vision</h1> -->
+        <!-- </div> -->
         <!-- End of Hero Left section -->
 
         <!-- Start of Hero Right section -->
-        <div class="col-lg-8 col-12">
+        <div class="col-lg-12 col-12">
 
           <!-- Hero Image -->
           <img src="images/hero_image.webp" alt="Construction Image" class="hero-body-image" />
@@ -61,7 +99,7 @@
       <!-- End of Hero section -->
 
       <!-- Start of About section -->
-      <h1 class="about-title">About Build Era</h1>
+      <h1 class="about-title" id="aboutUsSection">About Build Era</h1>
       <hr class="about-title-underline" />
 
       <div class="row about-row">
@@ -103,7 +141,7 @@
       <!-- End of About section -->
 
       <!-- Start of Our Work section -->
-      <h1 class="our-work-title">
+      <h1 class="our-work-title" id="ourWorkSection">
         Our Work in Progress: A Gallery of Build Era Construction Projects
       </h1>
       <hr class="our-work-title-underline" />
@@ -193,7 +231,7 @@
     <!-- End of Construction Container -->
 
     <!-- Start of Contact Us section -->
-    <h1 class="contact-us-title">Contact Us</h1>
+    <h1 class="contact-us-title" id="contactUsSection">Contact Us</h1>
     <hr class="contact-us-title-underline" />
 
     <!-- Start of Contact Us, and Footer Container -->
