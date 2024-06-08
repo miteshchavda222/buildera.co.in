@@ -12,6 +12,11 @@ html {
     height: 100%;
 }
 
+.nav-item {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
 /* Main Container */
 .main-container {
     width: 100%;
@@ -27,7 +32,7 @@ html {
 
 /* Hero Row */
 .hero-row {
-    background-color: #f6f6f6;
+    padding-top: 1rem;
 }
 
 /* Hero Left section Logo */
